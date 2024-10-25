@@ -1,0 +1,6 @@
+# to ignore .terraform folder in the projects
+.terraform/
+
+# to ignore all the files with .tfstate extension including the HCL lock files
+*.tfstate*
+*.lock.hcl
